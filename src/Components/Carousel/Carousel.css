@@ -1,0 +1,9 @@
+.maincarouselcontainer {
+  max-width: 71%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.slick-slide img {
+  max-width: 100%;
+}

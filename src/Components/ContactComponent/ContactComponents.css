@@ -1,0 +1,142 @@
+.maincontactcompcontainer {
+  margin-bottom: 10rem;
+}
+.contactcompcontainer {
+  margin-top: 5rem;
+}
+.contactcompcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.contactcard2and3 {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.contactcomp4and5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contactcard {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 40rem;
+}
+.contactcompcontainer ul {
+  padding: 0 20px 0 20px;
+}
+.contactcard li {
+  list-style-type: none;
+}
+
+.contactcard2 {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 40rem;
+}
+.contactcard2 li {
+  list-style-type: none;
+}
+.contactcard3 {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 40rem;
+}
+.contactcard4 {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 40rem;
+  display: flex;
+  align-items: center;
+}
+.contactcard4 li {
+  list-style-type: none;
+}
+.contactcard4ul {
+  padding: 0 20px 0 20px;
+}
+.contactcard5ul {
+  padding: 0 20px 0 20px;
+}
+.contactcard5 {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 40rem;
+}
+.contactcard5 li {
+  list-style-type: none;
+}
+.contactcard3 li {
+  list-style-type: none;
+}
+.sepetimlivehelp {
+  background-color: #ff4d30;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+.contactcardp {
+  font-weight: 600;
+}
+.spanstyle {
+  font-weight: 600;
+}
+.inputforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.1rem;
+}
+.allinputscontainer input {
+  background-color: #ececec;
+  border-color: transparent;
+  border-width: 1px;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  padding: 15px 43px;
+}
+.inputsendhelp {
+  background-color: #ff4d30;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.allinputscontainer {
+  display: flex;
+  flex-direction: column;
+}

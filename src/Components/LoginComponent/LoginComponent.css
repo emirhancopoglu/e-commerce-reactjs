@@ -1,0 +1,52 @@
+.logincompcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.logincontainer {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 40rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.formcontainer {
+  display: flex;
+  justify-content: center;
+}
+.formcontainer input {
+  background-color: #ececec;
+  border-color: transparent;
+  border-width: 1px;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  padding: 1rem 11rem;
+  margin: 0.2rem;
+}
+
+.formsendbutton {
+  background-color: #ff4d30;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+.formsendcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.formsendcontainer p {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: grey;
+}

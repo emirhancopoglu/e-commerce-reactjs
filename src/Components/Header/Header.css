@@ -1,0 +1,75 @@
+.headercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 4px 5px -5px rgba(0, 0, 0, 0.23);
+}
+.headerlogo-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerlogo-links img {
+  width: 100%;
+  height: 100%;
+}
+.headerlinks {
+  display: flex;
+}
+.headerlinks a {
+  color: #010103;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.headerlinks li:hover {
+  color: #ff4d30;
+  transition: all 0.3s;
+}
+.headerlinks ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  padding: 0;
+}
+.headeruserbuttons {
+  display: flex;
+}
+.headeruserbuttons a {
+  color: #010103;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.headeruserbuttons a:hover {
+  color: #ff4d30;
+}
+.headeruserbuttons ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.headerloginbutton {
+  background-color: #ff4d30;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.headerloginbutton:hover {
+  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
+}

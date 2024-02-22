@@ -1,0 +1,57 @@
+.signupcompmaincontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.signupcompcontainer {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 40rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+}
+.signupcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.signupcontainer input {
+  background-color: #ececec;
+  border-color: transparent;
+  border-width: 1px;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  padding: 1rem 11rem;
+  margin: 0.2rem;
+}
+.signupformbutton {
+  background-color: #ff4d30;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+.contractcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.contractcontainer p {
+  font-size: 0.8rem;
+  color: grey;
+  width: 100%;
+}
+.contractcontainer a {
+  text-decoration: underline;
+  color: gray;
+  font-size: 0.8rem;
+}

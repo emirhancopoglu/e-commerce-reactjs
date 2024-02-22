@@ -1,0 +1,24 @@
+.informationcontainer {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  background: hsla(0, 0%, 94.9%, 0.54);
+}
+.informationcontainer img {
+  width: 100%;
+}
+
+.company-text {
+  color: #706f7b;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1rem;
+}
+.informationcompany {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

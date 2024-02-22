@@ -1,0 +1,57 @@
+.herosectioncontainer {
+  margin-top: 10rem;
+}
+
+.herosection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.herosectionwomen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 20px 10px 0 rgb(0 0 0 / 30%);
+  outline: 2px solid rgb(0 0 0 / 30%);
+  transition: all 0.6s;
+}
+.herosectionwomen:hover {
+  box-shadow: 0 20px 10px 0 rgb(249 0 0 / 21%);
+  outline: 2px solid rgb(249 0 0 / 21%);
+}
+
+.herosectionman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 20px 10px 0 rgb(0 0 0 / 30%);
+  outline: 2px solid rgb(0 0 0 / 30%);
+  transition: all 0.6s;
+}
+.herosectionman:hover {
+  box-shadow: 0 20px 10px 0 rgb(0 43 255 / 37%);
+  outline: 2px solid rgb(0 43 255 / 37%);
+}
+.herosectionkid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 20px 10px 0 rgb(0 0 0 / 30%);
+  outline: 2px solid rgb(0 0 0 / 30%);
+  transition: all 0.6s;
+}
+.herosectionkid:hover {
+  box-shadow: 0 20px 10px 0 rgb(228 255 0 / 21%);
+  outline: 2px solid rgb(228 255 0 / 21%);
+}
+
+.ahrefcard {
+  font-size: 3rem;
+  color: black;
+  text-decoration: none;
+}

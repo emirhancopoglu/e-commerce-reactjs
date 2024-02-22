@@ -1,0 +1,106 @@
+.footercontainer {
+  background: hsla(0, 0%, 94.9%, 0.54);
+}
+
+.footerdetails {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.footerdetails ul {
+  list-style-type: none;
+  line-height: 2.2rem;
+}
+.footerdetails input {
+  background-color: #ececec;
+  border-color: transparent;
+  border-width: 1px;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  padding: 10px 60px;
+}
+.sendmailbutton {
+  background-color: #ff4d30;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+.sepetimul li {
+  font-weight: 400;
+}
+
+.footermailthings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footercompanyname {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.sepetimhelp {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.sepetimcategory {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.sepetimsubs {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.footericons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+.sepetimul {
+  display: flex;
+  flex-direction: column;
+}
+.sepetimul li {
+  text-align: center;
+}
+.sepetimul2 {
+  display: flex;
+  flex-direction: column;
+}
+.sepetimul2 li {
+  text-align: center;
+}
+.sepetimul2 a:hover {
+  color: orangered;
+}
+.sepetimul3 {
+  display: flex;
+  flex-direction: column;
+}
+.sepetimul3 li {
+  text-align: center;
+}
+.sepetimul3 a:hover {
+  color: orangered;
+}
+.sepetimul4 {
+  display: flex;
+  flex-direction: column;
+}
+.sepetimul4 li {
+  text-align: center;
+}

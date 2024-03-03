@@ -3,34 +3,34 @@ import "./Hero.css";
 import womenshop from "../../Assets/womenshop.jpg";
 import manshop from "../../Assets/manshop.jpg";
 import kidshop from "../../Assets/kidshop.jpg";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="herosectioncontainer">
       <div className="herosection">
         <div className="herosectionwomen">
-          <a href="/">
-            <img src={womenshop} alt="Women"></img>
-          </a>
-          <a href="/" className="ahrefcard">
+          <Link to={"/woman"}>
+            <img src={womenshop} alt="Women"></img>{" "}
+          </Link>
+          <Link to={"/woman"} className="ahrefcard">
             kadın
-          </a>
+          </Link>
         </div>
         <div className="herosectionman">
-          <a href="/">
+          <Link to={"/men"}>
             <img src={manshop} alt="Man"></img>{" "}
-          </a>
-          <a href="/" className="ahrefcard">
+          </Link>
+          <Link to={"/men"} className="ahrefcard">
             erkek
-          </a>
+          </Link>
         </div>
         <div className="herosectionkid">
-          <a href="/">
-            <img src={kidshop} alt="Kids"></img>{" "}
-          </a>
-          <a href="/" className="ahrefcard">
+          <Link to={"/kid"}>
+            <img src={kidshop} alt="Kids"></img>
+          </Link>
+          <Link to={"/kid"} className="ahrefcard">
             çocuk
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -4,6 +4,23 @@ import "./ContactComponents.css";
 const ContactComponents = () => {
   return (
     <div className="maincontactcompcontainer">
+      <div className="home-contact">
+        <div className="home-contactcontainer">
+          <ul className="home-contactul">
+            <li>
+              <p className="contactp">İletişim</p>
+            </li>
+            <li>
+              <p>
+                <a href="/">
+                  <span>Anasayfa </span>
+                </a>
+                / İletişim
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="contactcompcontainer">
         <div className="contactcard">
           <ul className="contactcardul">

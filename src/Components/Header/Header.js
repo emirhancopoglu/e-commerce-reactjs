@@ -9,23 +9,20 @@ const Header = () => {
       <div className="headercontainer">
         <div className="headerlogo-links">
           <a href="/">
-            {" "}
             <img src={sepetimlogo} alt="Sepetim Logo"></img>
           </a>
         </div>
         <div className="headerlinks">
           <ul>
-            <a href="/">
-              <li>Kadın</li>{" "}
-            </a>
-            <a href="/">
-              {" "}
+            <Link to={"/woman"}>
+              <li>Kadın</li>
+            </Link>
+            <Link to={"/men"}>
               <li>Erkek</li>
-            </a>
-            <a href="/">
-              <li>Çocuk</li>
-            </a>
-
+            </Link>
+            <Link to={"/kid"}>
+              <li>Çocuk</li>{" "}
+            </Link>
             <Link to={"/contact"}>
               <li>İletişim</li>
             </Link>

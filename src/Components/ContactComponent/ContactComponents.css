@@ -2,17 +2,15 @@
   margin-bottom: 10rem;
 }
 .contactcompcontainer {
-  margin-top: 5rem;
-}
-.contactcompcontainer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   gap: 2rem;
+  margin-top: 1rem;
 }
 .contactcard2and3 {
-  gap: 2rem;
+  gap: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -21,7 +19,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .contactcard {
@@ -139,4 +137,29 @@
 .allinputscontainer {
   display: flex;
   flex-direction: column;
+}
+
+.home-contactcontainer {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 82rem;
+  margin-top: 1rem;
+}
+.home-contact {
+  display: flex;
+  justify-content: center;
+}
+.home-contactul {
+  list-style-type: none;
+}
+.home-contactul p {
+  margin: 0;
+  font-weight: 500;
+}
+.contactp {
+  font-size: 2rem;
+}
+.home-contactul span {
+  color: orangered;
+  font-weight: 500;
 }

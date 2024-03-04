@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import "./ProductDetailComp.css";
 import star from "../../Assets/star.png";
+import LoadingPage from "../LoadingPage/LoadingPage";
 const ProductDetail = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
@@ -22,7 +23,11 @@ const ProductDetail = () => {
   }, [id]);
 
   if (!product) {
-    return <div>Loading...</div>;
+    return (
+      <div>
+        <LoadingPage />
+      </div>
+    );
   }
 
   return (

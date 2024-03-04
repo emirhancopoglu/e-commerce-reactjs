@@ -10,17 +10,6 @@
   margin-bottom: 2rem;
 }
 
-.searchinput {
-  width: 20rem;
-  height: 2rem;
-  font-size: 1rem;
-  background-color: #ececec;
-  border-width: 1px;
-  border-color: transparent;
-  background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
-  background-repeat: no-repeat;
-  background-position: right center;
-}
 .womancompcontainer {
   height: auto;
   width: 70rem;
@@ -65,4 +54,41 @@
 .productbrandclass {
   color: gray;
   font-weight: 500;
+}
+.womanand-filtercontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.womansearchbarcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.womanfiltermaincontainer {
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.womanfiltercategoryp {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.womanfilterdressesp {
+  font-weight: 300;
+}
+
+.womanfilterwatchesp {
+  font-weight: 300;
+}
+.womanfilterbagsp {
+  font-weight: 300;
+}
+.womanfiltershoesp {
+  font-weight: 300;
+}
+.womanfiltermaincontainer p {
+  margin: 0.2rem;
 }

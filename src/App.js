@@ -8,6 +8,7 @@ import Men from "./Pages/Men/Men.js";
 import Woman from "./Pages/Woman/Woman.js";
 import Kid from "./Pages/Kid/Kid.js";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail.js";
+
 function App() {
   return (
     <div className="App">

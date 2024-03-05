@@ -1,0 +1,16 @@
+.trendingcarousel {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.trendingproductimg {
+  width: 18rem;
+  height: 20rem;
+}
+.cardclass h3 {
+  display: flex;
+  justify-content: center;
+  width: 18rem;
+  font-weight: 400;
+}

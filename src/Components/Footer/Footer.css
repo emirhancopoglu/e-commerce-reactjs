@@ -10,6 +10,8 @@
 .footerdetails ul {
   list-style-type: none;
   line-height: 2.2rem;
+  padding: 0;
+  margin: 0;
 }
 .footerdetails input {
   background-color: #ececec;
@@ -39,7 +41,7 @@ a {
   font-weight: 400;
 }
 .sepetimul li {
-  font-weight: 400;
+  text-align: center;
 }
 
 .footermailthings {
@@ -74,9 +76,7 @@ a {
   display: flex;
   flex-direction: column;
 }
-.sepetimul li {
-  text-align: center;
-}
+
 .sepetimul2 {
   display: flex;
   flex-direction: column;
@@ -103,4 +103,12 @@ a {
 }
 .sepetimul4 li {
   text-align: center;
+}
+.companyadressli {
+  font-weight: 600;
+  color: orangered;
+}
+.companywebsite {
+  font-weight: 600;
+  margin: 0;
 }

@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LoadingPage from "../LoadingPage/LoadingPage";
+import star from "../../Assets/star.png";
 
 const KidComponent = () => {
   const [loading, setLoading] = useState(true);
@@ -112,16 +113,28 @@ const KidComponent = () => {
                 .map((product) => (
                   <div key={product.id} className="kidtshirt1">
                     <Link to={`/products/${product.id}`}>
-                      <img src={product.thumbnail} alt="Kid Tisort" />
+                      <img
+                        src={product.thumbnail}
+                        alt="Kid Tisort"
+                        className="productthumbnailimg"
+                      />
                     </Link>
                     <div className="kidtshirt1title">
                       <p>
-                        <span className="productbrandclass">
+                        <span className="kidproductbrandclass">
                           {product.brand}
                         </span>{" "}
                         {product.title}
                       </p>
                     </div>
+                    <p className="kidproductrating">
+                      <img
+                        src={star}
+                        alt="Star"
+                        className="kidproductrating-star"
+                      ></img>
+                      {product.rating}
+                    </p>
                     <div className="kidtshirt-pricediscount">
                       <p>
                         <span className="discountpriceline-through">
@@ -133,7 +146,7 @@ const KidComponent = () => {
                         </span>
                       </p>
                       <p>
-                        <span className="actualproductprice">
+                        <span className="kidactualproductprice">
                           {product.price}TL
                         </span>
                       </p>

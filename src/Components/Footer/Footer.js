@@ -3,6 +3,7 @@ import "./Footer.css";
 import github from "../../Assets/github.png";
 import instagram from "../../Assets/instagram.png";
 import linkedin from "../../Assets/linkedin.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,11 +16,13 @@ const Footer = () => {
                 Sepetim Elektronik Alışveriş A.Ş
               </p>
             </li>
-            <li>Maslak Mahallesi Saat Sokak Spine Tower No:5 İç Kapı No:19</li>
-            <li>Sarıyer/İstanbul</li>
+            <li className="companyadressli">
+              Maslak Mahallesi Saat Sokak Spine Tower No:5 İç Kapı No:19
+            </li>
+            <li className="companyadressli">Sarıyer/İstanbul</li>
             <li>
               <a href="localhost:3000">
-                <p>www.sepetim.com.tr</p>
+                <p className="companywebsite">www.sepetim.com.tr</p>
               </a>
             </li>
           </ul>
@@ -48,15 +51,15 @@ const Footer = () => {
             <li>
               <p className="sepetimcategory">Kategori</p>
             </li>
-            <a href="/">
+            <Link to={"/woman"}>
               <li>Kadın</li>
-            </a>
-            <a href="/">
+            </Link>
+            <Link to={"/men"}>
               <li>Erkek</li>
-            </a>
-            <a href="/">
+            </Link>
+            <Link to={"/kid"}>
               <li>Çocuk</li>
-            </a>
+            </Link>
           </ul>
           <ul className="sepetimul4">
             <li>

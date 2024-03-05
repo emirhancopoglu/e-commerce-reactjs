@@ -2,6 +2,7 @@ import React from "react";
 import sepetimlogo from "../../Assets/sepetimlogo.png";
 import "../Header/Header.css";
 import { Link } from "react-router-dom";
+import basket from "../../Assets/basket.png";
 
 const Header = () => {
   return (
@@ -30,6 +31,11 @@ const Header = () => {
         </div>
         <div className="headeruserbuttons">
           <ul>
+            <li>
+              <Link to={"/"}>
+                <img src={basket} alt="Sepet"></img>{" "}
+              </Link>
+            </li>
             <li>
               <Link to={"/signup"}>Kaydol</Link>
             </li>

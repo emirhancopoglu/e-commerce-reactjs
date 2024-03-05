@@ -1,13 +1,20 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import "./ProductDetailComp.css";
 import star from "../../Assets/star.png";
 import LoadingPage from "../LoadingPage/LoadingPage";
+import TrendingCarousel from "../TrendingCarousel/TrendingCarousel";
+
 const ProductDetail = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
+  const [mainImage, setMainImage] = useState("");
+
+  const handleImageClick = (imageUrl) => {
+    setMainImage(imageUrl);
+  };
+
   useEffect(() => {
     const fetchProduct = async () => {
       try {
@@ -15,6 +22,7 @@ const ProductDetail = () => {
           `https://dummyjson.com/products/${id}`
         );
         setProduct(response.data);
+        setMainImage(response.data.thumbnail);
       } catch (error) {
         console.log("Error fetching product: ", error);
       }
@@ -34,8 +42,19 @@ const ProductDetail = () => {
     <div className="mainproductdetailcontainer">
       <div className="productdetailcontainer">
         <div className="productcard">
-          <img src={product.thumbnail} alt="Product"></img>
+          <img src={mainImage} alt="Product"></img>
+          <div className="small-images-container">
+            {product.images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Small${index}`}
+                onClick={() => handleImageClick(image)}
+              />
+            ))}
+          </div>
         </div>
+
         <div className="productfeature">
           <div className="productbrand-title">
             <p className="productbrand">{product.brand}</p>
@@ -62,6 +81,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
+      <TrendingCarousel />
     </div>
   );
 };

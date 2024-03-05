@@ -8,17 +8,19 @@ const LoginComponents = () => {
         <div className="logincontainer">
           <div className="formcontainer">
             <form className="userdetailform">
-              <div className="emailplace">
-                <input type="text" placeholder="E-posta" required></input>
-              </div>
-              <div className="passwordplace">
-                <input type="text" placeholder="Parola" required></input>
-              </div>
-              <div className="formsendcontainer">
-                <button className="formsendbutton">GİRİŞ</button>
-                <a href="/">
-                  <p>Parolanızı mı unuttunuz?</p>{" "}
-                </a>
+              <div className="mailandpasswordcontainer">
+                <div className="emailplace">
+                  <input type="text" placeholder="E-posta" required></input>
+                </div>
+                <div className="passwordplace">
+                  <input type="text" placeholder="Parola" required></input>
+                </div>
+                <div className="formsendcontainer">
+                  <button className="formsendbutton">GİRİŞ</button>
+                  <a href="/">
+                    <p>Parolanızı mı unuttunuz?</p>{" "}
+                  </a>
+                </div>
               </div>
             </form>
           </div>

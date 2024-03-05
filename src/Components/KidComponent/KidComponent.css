@@ -22,7 +22,10 @@
   height: auto;
   width: 70rem;
 }
-.kidtshirt1 img {
+.kidproductrating {
+  margin: 0;
+}
+.productthumbnailimg {
   width: 100%;
   height: 21rem;
 }
@@ -31,6 +34,7 @@
   gap: 1rem;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .kidtshirt1 {
   display: flex;
@@ -40,6 +44,7 @@
   border: 1px solid #e6e6e6;
   border-radius: 10px;
   width: 16rem;
+  transition: all 0.3s;
 }
 .kidtshirt-pricediscount {
   display: flex;
@@ -47,9 +52,9 @@
   gap: 1rem;
   text-align: center;
 }
-.actualproductprice {
+.kidactualproductprice {
   color: orangered;
-  font-weight: 500;
+  font-weight: 600;
 }
 .discountpriceline-through {
   color: gray;
@@ -57,21 +62,19 @@
 }
 .kidtshirt1title p {
   text-align: center;
-  font-weight: 500;
+  display: flex;
+  flex-direction: column;
 }
-.productbrandclass {
-  color: gray;
-  font-weight: 500;
+.kidproductbrandclass {
+  color: orangered;
+  font-weight: 600;
 }
 .kid-and-filtercontainer {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
 }
 .filtermaincontainer {
-  text-align: center;
   border: 1px solid #e6e6e6;
-  border-radius: 10px;
   width: 100%;
   height: 100%;
 }
@@ -82,6 +85,7 @@
 .filtercategoryp {
   font-weight: 600;
   font-size: 1.3rem;
+  text-align: center;
 }
 .filtershoesp {
   font-weight: 300;
@@ -93,4 +97,8 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
+}
+.kidtshirt1:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.262);
+  transition: all 0.3s;
 }

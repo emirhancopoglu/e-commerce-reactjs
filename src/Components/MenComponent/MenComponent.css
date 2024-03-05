@@ -24,15 +24,15 @@
   height: auto;
   width: 70rem;
 }
-.mentshirt1 img {
-  width: 100%;
-  height: 21rem;
+.manproductrating {
+  margin: 0;
 }
 .mentshirtcontainer {
   display: flex;
   gap: 1rem;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .mentshirt1 {
   display: flex;
@@ -42,6 +42,7 @@
   border: 1px solid #e6e6e6;
   border-radius: 10px;
   width: 16rem;
+  transition: all 0.3s;
 }
 .mentshirt-pricediscount {
   display: flex;
@@ -49,26 +50,30 @@
   gap: 1rem;
   text-align: center;
 }
-.actualproductprice {
+.manactualproductprice {
   color: orangered;
-  font-weight: 500;
+  font-weight: 600;
 }
 .discountpriceline-through {
   color: gray;
   text-decoration: line-through;
 }
+.menproductthumbnailimg {
+  width: 100%;
+  height: 21rem;
+}
 .mentshirt1title p {
   text-align: center;
-  font-weight: 500;
+  display: flex;
+  flex-direction: column;
 }
-.productbrandclass {
-  color: gray;
-  font-weight: 500;
+.manproductbrandclass {
+  color: orangered;
+  font-weight: 600;
 }
 .manand-filtercontainer {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
 }
 .mansearchbarcontainer {
   display: flex;
@@ -76,9 +81,7 @@
   margin-bottom: 1rem;
 }
 .manfiltermaincontainer {
-  text-align: center;
   border: 1px solid #e6e6e6;
-  border-radius: 10px;
   width: 100%;
   height: 100%;
 }
@@ -88,6 +91,7 @@
 .manfiltercategoryp {
   font-weight: 600;
   font-size: 1.3rem;
+  text-align: center;
 }
 .manfiltershoesp {
   font-weight: 300;
@@ -97,4 +101,8 @@
 }
 .manfilterwatchesp {
   font-weight: 300;
+}
+.mentshirt1:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.262);
+  transition: all 0.3s;
 }

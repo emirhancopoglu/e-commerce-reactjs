@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LoadingPage from "../../Components/LoadingPage/LoadingPage.js";
+import star from "../../Assets/star.png";
 
 const MenComponent = () => {
   const [loading, setLoading] = useState(true);
@@ -121,16 +122,28 @@ const MenComponent = () => {
                 .map((product) => (
                   <div key={product.id} className="mentshirt1">
                     <Link to={`/products/${product.id}`}>
-                      <img src={product.thumbnail} alt="Men Tisort"></img>
+                      <img
+                        src={product.thumbnail}
+                        alt="Men Tisort"
+                        className="menproductthumbnailimg"
+                      ></img>
                     </Link>
                     <div className="mentshirt1title">
                       <p>
-                        <span className="productbrandclass">
+                        <span className="manproductbrandclass">
                           {product.brand}
                         </span>{" "}
                         {product.title}
                       </p>
                     </div>
+                    <p className="manproductrating">
+                      <img
+                        src={star}
+                        alt="Star"
+                        className="manproductrating-star"
+                      ></img>
+                      {product.rating}
+                    </p>
                     <div className="mentshirt-pricediscount">
                       <p>
                         <span className="discountpriceline-through">
@@ -142,7 +155,7 @@ const MenComponent = () => {
                         </span>
                       </p>
                       <p>
-                        <span className="actualproductprice">
+                        <span className="manactualproductprice">
                           {product.price}TL
                         </span>
                       </p>

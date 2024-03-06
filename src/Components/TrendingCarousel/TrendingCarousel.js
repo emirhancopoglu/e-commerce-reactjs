@@ -75,7 +75,7 @@ const TrendingCarousel = () => {
   return (
     <div className="trendingcarousel">
       <div className="slider-container">
-        <h3>Benzer Ürünler</h3>
+        <h3 className="similerproduct">Benzer Ürünler</h3>
         <Slider {...settings}>
           {data.map((item) => (
             <div className="cardclass">

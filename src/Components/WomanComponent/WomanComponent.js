@@ -16,6 +16,7 @@ const WomanComponent = () => {
     "bags",
   ]);
   const [query, setQuery] = useState("");
+  const [sortBy, setSortBy] = useState("highest");
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -58,6 +59,18 @@ const WomanComponent = () => {
     }
   };
 
+  const handleSortChange = (e) => {
+    setSortBy(e.target.value);
+  };
+
+  const sortProducts = (products, sortBy) => {
+    if (sortBy === "lowest") {
+      return [...products].sort((a, b) => a.price - b.price);
+    } else {
+      return [...products].sort((a, b) => b.price - a.price);
+    }
+  };
+
   return (
     <div className="mainwomancompcontainer">
       {loading ? (
@@ -66,6 +79,21 @@ const WomanComponent = () => {
       ) : (
         <div className="womanand-filtercontainer">
           <div className="womansearchbarinputandfilter">
+            <div className="sortingmaincontainer">
+              <div className="sortingcontainer">
+                <form>
+                  <select
+                    name="sort"
+                    onChange={handleSortChange}
+                    value={sortBy}
+                    className="selectioninput"
+                  >
+                    <option value="highest">En yüksek fiyat</option>
+                    <option value="lowest">En düşük fiyat</option>
+                  </select>
+                </form>
+              </div>
+            </div>
             <div className="womansearchbarcontainer">
               <div className="womansearchbarandinput">
                 <input
@@ -121,7 +149,7 @@ const WomanComponent = () => {
 
           <div className="womancompcontainer">
             <div className="womantshirtcontainer">
-              {products
+              {sortProducts(products, sortBy)
                 .filter(
                   (product) =>
                     product.title.toLowerCase().includes(query.toLowerCase()) ||

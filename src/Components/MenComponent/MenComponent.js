@@ -9,12 +9,13 @@ import star from "../../Assets/star.png";
 const MenComponent = () => {
   const [loading, setLoading] = useState(true);
   const [products, setProducts] = useState([]);
-  const [query, setQuery] = useState("");
   const [selectedCategories, setSelectedCategories] = useState([
     "shirts",
     "shoes",
     "watches",
   ]);
+  const [query, setQuery] = useState("");
+  const [sortBy, setSortBy] = useState("highest");
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -57,6 +58,18 @@ const MenComponent = () => {
     }
   };
 
+  const handleSortChange = (e) => {
+    setSortBy(e.target.value);
+  };
+
+  const sortProducts = (products, sortBy) => {
+    if (sortBy === "lowest") {
+      return [...products].sort((a, b) => a.price - b.price);
+    } else {
+      return [...products].sort((a, b) => b.price - a.price);
+    }
+  };
+
   return (
     <div className="mainmencompcontainer">
       {loading ? (
@@ -65,6 +78,21 @@ const MenComponent = () => {
       ) : (
         <div className="manand-filtercontainer">
           <div className="mansearchbarinputandfilter">
+            <div className="mansortingmaincontainer">
+              <div className="mansortingcontainer">
+                <form>
+                  <select
+                    name="sort"
+                    onChange={handleSortChange}
+                    value={sortBy}
+                    className="manselectioninput"
+                  >
+                    <option value="highest">En yüksek fiyat</option>
+                    <option value="lowest">En düşük fiyat</option>
+                  </select>
+                </form>
+              </div>
+            </div>
             <div className="mansearchbarcontainer">
               <div className="mansearchbarandinput">
                 <input
@@ -110,7 +138,7 @@ const MenComponent = () => {
           </div>
           <div className="mencompcontainer">
             <div className="mentshirtcontainer">
-              {products
+              {sortProducts(products, sortBy)
                 .filter(
                   (product) =>
                     (selectedCategories.includes(product.category) &&

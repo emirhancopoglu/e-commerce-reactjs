@@ -9,11 +9,12 @@ import star from "../../Assets/star.png";
 const KidComponent = () => {
   const [loading, setLoading] = useState(true);
   const [products, setProducts] = useState([]);
-  const [query, setQuery] = useState("");
   const [selectedCategories, setSelectedCategories] = useState([
     "shoes",
     "bags",
   ]);
+  const [query, setQuery] = useState("");
+  const [sortBy, setSortBy] = useState("highest");
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -56,6 +57,18 @@ const KidComponent = () => {
     }
   };
 
+  const handleSortChange = (e) => {
+    setSortBy(e.target.value);
+  };
+
+  const sortProducts = (products, sortBy) => {
+    if (sortBy === "lowest") {
+      return [...products].sort((a, b) => a.price - b.price);
+    } else {
+      return [...products].sort((a, b) => b.price - a.price);
+    }
+  };
+
   return (
     <div className="mainkidcompcontainer">
       {loading ? (
@@ -64,6 +77,21 @@ const KidComponent = () => {
       ) : (
         <div className="kid-and-filtercontainer">
           <div className="searchbarinputandfilter">
+            <div className="kidsortingmaincontainer">
+              <div className="kidsortingcontainer">
+                <form>
+                  <select
+                    name="sort"
+                    onChange={handleSortChange}
+                    value={sortBy}
+                    className="kidselectioninput"
+                  >
+                    <option value="highest">En yüksek fiyat</option>
+                    <option value="lowest">En düşük fiyat</option>
+                  </select>
+                </form>
+              </div>
+            </div>
             <div className="searchbarcontainer">
               <div className="searchbarandinput">
                 <input

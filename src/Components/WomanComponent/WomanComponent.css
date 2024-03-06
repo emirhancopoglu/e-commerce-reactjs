@@ -31,7 +31,6 @@
 .womantshirt1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border: 1px solid #e6e6e6;
   border-radius: 10px;
@@ -100,4 +99,26 @@
 .womantshirt1:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.262);
   transition: all 0.3s;
+}
+.sortingmaincontainer {
+  margin-bottom: 1rem;
+}
+
+.sortingcontainer select {
+  border-color: gray;
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: 400;
+  font-size: 1.2rem;
+  height: auto;
+  width: 100%;
+  padding: 8px 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sortingcontainer select:hover {
+  border-color: orangered;
+}
+.sortingcontainer select option:hover {
+  border-color: orangered;
 }

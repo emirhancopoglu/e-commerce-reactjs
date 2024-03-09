@@ -8,8 +8,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 10rem;
-  width: 55rem;
+  gap: 1rem;
+  width: 50rem;
   height: auto;
   border-radius: 1rem;
   padding: 24px;
@@ -21,9 +21,10 @@
 }
 .basketcontainercard {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  gap: 10rem;
+  gap: 1rem;
+  align-items: center;
 }
 .totalofproduct {
   display: flex;
@@ -55,6 +56,7 @@
   flex-direction: row;
   align-items: center;
   gap: 2rem;
+  width: auto;
 }
 .basketcargo {
   display: flex;
@@ -81,6 +83,7 @@
 .productsummary-button {
   border: 1px solid #e6e6e6;
   width: 15rem;
+  height: 15rem;
   padding: 15px;
   border-radius: 1rem;
 }
@@ -120,7 +123,6 @@
 .basketcardproduct {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
 .basketproductimg {
   width: 128px;
@@ -134,7 +136,68 @@
   margin: 0;
 }
 .basketproductpcontainer {
-  width: 45rem;
+  width: 50%;
   display: flex;
   justify-content: center;
+}
+.basketcontainerandtotal {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.productpricespan {
+  color: orangered;
+  font-weight: 600;
+}
+.productamountspan {
+  color: black;
+  font-weight: 300;
+}
+.saleproducttotalspan {
+  color: orangered;
+  font-weight: 600;
+}
+.empty-basket {
+  border: 1px solid #e2e2e2;
+  display: flex;
+  flex-direction: row;
+  width: 50rem;
+  gap: 5rem;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+.basket-img {
+  width: 32px;
+  height: 32px;
+}
+.empty-basket-main-container {
+  display: flex;
+  justify-content: center;
+}
+.empty-basket-p {
+  font-weight: 600;
+}
+.empty-basketbutton {
+  background-color: #ff4d30;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  height: 4rem;
+}
+.empty-basketbutton a {
+  color: white;
+}
+.basketemptycompmaincontainer {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }

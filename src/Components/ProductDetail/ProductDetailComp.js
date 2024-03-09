@@ -30,6 +30,27 @@ const ProductDetail = () => {
     fetchProduct();
   }, [id]);
 
+  const addToCart = (product) => {
+    const existingItem = localStorage.getItem("cart");
+    if (existingItem) {
+      const cart = JSON.parse(existingItem);
+      const existingProductIndex = cart.findIndex(
+        (item) => item.id === product.id
+      );
+      if (existingProductIndex !== -1) {
+        cart[existingProductIndex].quantity += 1;
+      } else {
+        cart.push({ ...product, quantity: 1 });
+      }
+      localStorage.setItem("cart", JSON.stringify(cart));
+    } else {
+      localStorage.setItem(
+        "cart",
+        JSON.stringify([{ ...product, quantity: 1 }])
+      );
+    }
+  };
+
   if (!product) {
     return (
       <div>
@@ -76,7 +97,12 @@ const ProductDetail = () => {
             <p className="productdescp">{product.description}</p>
           </div>
           <div className="productsalebutton-liked">
-            <button className="productsalebutton">Sepete Ekle</button>
+            <button
+              className="productsalebutton"
+              onClick={() => addToCart(product)}
+            >
+              Sepete Ekle
+            </button>
             <button className="productlikedbutton">♡</button>
           </div>
         </div>

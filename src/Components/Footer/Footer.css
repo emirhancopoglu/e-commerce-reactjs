@@ -112,3 +112,9 @@ a {
   font-weight: 600;
   margin: 0;
 }
+@media (max-width: 400px) and (min-width: 240px) {
+  .footerdetails {
+    display: flex;
+    flex-direction: column;
+  }
+}

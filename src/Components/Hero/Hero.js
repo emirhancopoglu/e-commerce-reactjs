@@ -16,6 +16,7 @@ const Hero = () => {
             kadın
           </Link>
         </div>
+
         <div className="herosectionman">
           <Link to={"/men"}>
             <img src={manshop} alt="Man"></img>{" "}

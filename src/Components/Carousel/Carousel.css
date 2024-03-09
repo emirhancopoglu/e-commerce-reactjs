@@ -7,3 +7,11 @@
 .heroimagemodels {
   max-width: 100%;
 }
+
+@media (max-width: 400px) and (min-width: 240px) {
+  .maincarouselcontainer {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+}

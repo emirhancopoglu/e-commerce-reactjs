@@ -8,6 +8,7 @@ import Men from "./Pages/Men/Men.js";
 import Woman from "./Pages/Woman/Woman.js";
 import Kid from "./Pages/Kid/Kid.js";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail.js";
+import Basket from "./Pages/Basket/Basket.js";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/woman" element={<Woman />}></Route>
           <Route path="/kid" element={<Kid />}></Route>
           <Route path="/products/:id" element={<ProductDetail />}></Route>
+          <Route path="/basket" element={<Basket />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

@@ -32,7 +32,7 @@ const Header = () => {
         <div className="headeruserbuttons">
           <ul>
             <li>
-              <Link to={"/"}>
+              <Link to={"/basket"}>
                 <img src={basket} alt="Sepet"></img>{" "}
               </Link>
             </li>

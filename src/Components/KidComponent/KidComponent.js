@@ -129,7 +129,7 @@ const KidComponent = () => {
 
           <div className="kidcompcontainer">
             <div className="kidtshirtcontainer">
-              {products
+              {sortProducts(products, sortBy)
                 .filter(
                   (product) =>
                     (selectedCategories.includes(product.category) &&

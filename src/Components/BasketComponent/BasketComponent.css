@@ -1,0 +1,140 @@
+.basketcompmaincontainer {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.basketcard {
+  border: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10rem;
+  width: 55rem;
+  height: auto;
+  border-radius: 1rem;
+  padding: 24px;
+}
+.basketproductp {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.basketcontainercard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+}
+.totalofproduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.totalofproduct p {
+  margin: 0;
+  color: #333;
+  font-weight: 300;
+}
+.totalofmainproduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.totalofcargo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.totalofcargo p {
+  margin: 0;
+  color: #333;
+  font-weight: 300;
+}
+.basketcardpricestuff {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.basketcargo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 14px;
+}
+.basketbrandtitle {
+  font-weight: 500;
+  margin: 0;
+}
+.basketproduct-title {
+  font-weight: 400;
+  margin: 0;
+}
+.basketproductcargop {
+  font-weight: 400;
+  margin: 0;
+}
+.basketproduct-cargo {
+  display: flex;
+  flex-direction: row;
+}
+.productsummary-button {
+  border: 1px solid #e6e6e6;
+  width: 15rem;
+  padding: 15px;
+  border-radius: 1rem;
+}
+.basketproductdelete {
+  background-color: #ff4d30;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.productbuycontainer {
+  display: flex;
+  justify-content: center;
+}
+.productbuybutton {
+  background-color: #ff4d30;
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.productsummary-p {
+  color: #333;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.basketcardproduct {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.basketproductimg {
+  width: 128px;
+  height: 128px;
+}
+.basketproductimgcontainer {
+  display: flex;
+  align-items: center;
+}
+.basketcardpricestuff p {
+  margin: 0;
+}
+.basketproductpcontainer {
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+}

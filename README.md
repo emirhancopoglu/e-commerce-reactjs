@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<hr>
+<h1> Live Demo : <a href="https://sepetim.netlify.app/">sepetim</a></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<strong>Kullandığım Api'lar</strong>
+<br/>
+<strong> Erkek için:</strong>  
+<ul>
+  <li>
+    https://dummyjson.com/products/category/mens-shirts
+  </li>
+<li>
+  https://dummyjson.com/products/category/mens-shoes
+</li>
+<li>
+  https://dummyjson.com/products/category/mens-watches
+</li>
 
-## Available Scripts
+</ul>
+<strong> Kadın için:</strong>
+<ul>
+  <li>
+    https://dummyjson.com/products/category/womens-dresses
+  </li>
+  <li>
+    https://dummyjson.com/products/category/womens-shoes
+  </li>
+  <li>
+https://dummyjson.com/products/category/womens-watches
+  </li>
+  <li>
+    https://dummyjson.com/products/category/womens-bags
+  </li>
+</ul>
+<strong>Çocuk için:</strong> 
+<ul>
+  <li>
+    https://dummyjson.com/products/category/womens-bags
+  </li>
+  <li>
+    https://dummyjson.com/products/category/womens-watches
+  </li>
+</ul>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Anasayfa
+[homepage.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/2d49db79-1451-43c9-a6b8-2e530ce2b4a0)
+### Kadın Ürün Listesi
+[womanpage.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/d624ffc3-419f-4e04-b3b4-c0fe127afd9c)
+### Erkek Ürün Listesi
+[manpage.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/9fb94503-a32d-4992-b125-bc8c5948b10f)
+### Çocuk Ürün Listesi
+[kidpage.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/2ad1ebe8-e58f-46e6-a20a-3bdb2f466df7)
+### Ürün Detayları (Kadın - Erkek - Çocuk)
+[productdetails.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/8632b321-8be6-4d35-a3d2-3d376040b115)
+### Sepet
+[basketpage.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/b806ec27-412a-4c14-9b04-a34e95c4f9b4)
+### İletişim
+[contact.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/c1cf94e9-a3e2-43c5-b7a5-6d9db19ab198)
+### Kaydol
+[signuppage.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/bd43b020-6e89-410c-a461-ade0bf337d6c)
+### Giriş yap
+[loginpage.webm](https://github.com/emirhancopoglu/e-commerce-reactjs/assets/95498082/f5656c1e-ae90-441a-a7b6-bc9144773f3f)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -134,3 +134,83 @@
     width: 19rem;
   }
 }
+@media (max-width: 1000px) and (min-width: 769px) {
+  .herosection {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .herosectioncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+  }
+  .herosectionkid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .herosectionman {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .herosectionwomen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .herosectionwomen img {
+    width: 15rem;
+  }
+  .herosectionman img {
+    width: 15rem;
+  }
+  .herosectionkid img {
+    width: 15rem;
+  }
+}
+@media (max-width: 1148px) and (min-width: 1001px) {
+  .herosection {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  .herosectioncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+  }
+  .herosectionkid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .herosectionman {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .herosectionwomen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .herosectionwomen img {
+    width: 15rem;
+  }
+  .herosectionman img {
+    width: 15rem;
+  }
+  .herosectionkid img {
+    width: 15rem;
+  }
+}

@@ -14,6 +14,16 @@
   height: auto;
   width: 70rem;
 }
+.womansearchinput {
+  width: 9.5rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-color: transparent;
+  background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  border: 1px solid #4d4a58;
+}
 .womanproductrating {
   margin: 0;
 }
@@ -69,10 +79,17 @@
   flex-direction: column;
   margin-bottom: 1rem;
 }
+.sortingcontainer {
+  display: flex;
+  justify-content: center;
+}
 .womanfiltermaincontainer {
   border: 1px solid #e6e6e6;
-  width: 100%;
-  height: 100%;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .womanfiltercategoryp {
   font-weight: 600;
@@ -103,7 +120,14 @@
 .sortingmaincontainer {
   margin-bottom: 1rem;
 }
-
+.womansearchbarandinput {
+  display: flex;
+  justify-content: center;
+}
+.womansearchbarandinput {
+  display: flex;
+  justify-content: center;
+}
 .sortingcontainer select {
   border-color: gray;
   border-radius: 0.5rem;
@@ -112,7 +136,7 @@
   font-size: 1.2rem;
   height: auto;
   width: 100%;
-  padding: 8px 12px;
+  padding: 1px 3px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -122,6 +146,7 @@
 .sortingcontainer select option:hover {
   border-color: orangered;
 }
+
 @media (max-width: 400px) and (min-width: 240px) {
   .womanand-filtercontainer {
     display: flex;
@@ -139,7 +164,7 @@
     width: 100%;
   }
   .womantshirt1 {
-    width: 48%;
+    width: 30%;
   }
   .womanproducttumbnailimg {
     width: 100%;
@@ -169,8 +194,8 @@
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .mansearchinput {
-    width: 100%;
+  .womansearchinput {
+    width: 10rem;
     height: 2rem;
     font-size: 0.7rem;
     border-color: transparent;
@@ -180,20 +205,93 @@
     border: 1px solid #4d4a58;
   }
   .womansearchbarinputandfilter {
-    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.5rem;
   }
   .womanfiltercardcontainer {
-    width: 100%;
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .sortingmaincontainer {
+    margin-bottom: 0rem;
   }
 }
 
-@media (max-width: 768px) and (min-width: 320px) {
+@media (max-width: 569px) and (min-width: 320px) {
+  .womanand-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .sortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .womantshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .womancompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .womantshirt1 {
+    width: 30%;
+  }
+  .womanproducttumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .womantshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .womantshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .womansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .sortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .womansearchinput {
+    width: 10rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .womansearchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .womanfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 570px) {
   .womanand-filtercontainer {
     display: flex;
     flex-direction: column;
@@ -210,7 +308,7 @@
     width: 100%;
   }
   .womantshirt1 {
-    width: 48%;
+    width: 23%;
   }
   .womanproducttumbnailimg {
     width: 100%;
@@ -236,7 +334,152 @@
     font-weight: 400;
     font-size: 0.8rem;
     height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .womansearchinput {
+    width: 9.5rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .womansearchbarinputandfilter {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .womanfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .sortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 769px) {
+  .womanand-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .womantshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .womancompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .womantshirt1 {
+    width: 18%;
+  }
+  .womanproducttumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .womantshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .womantshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .womansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .sortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .womansearchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .womansearchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .sortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .womanfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1148px) and (min-width: 1001px) {
+  .womanand-filtercontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .womantshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .womancompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .womantshirt1 {
+    width: 15%;
+  }
+  .womanproducttumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .womantshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .womantshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .womansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .sortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -251,15 +494,16 @@
     border: 1px solid #4d4a58;
   }
   .womansearchbarinputandfilter {
-    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 0.5rem;
   }
+  .sortingmaincontainer {
+    margin-bottom: 0rem;
+  }
   .womanfiltercardcontainer {
-    width: 100%;
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
   }
 }

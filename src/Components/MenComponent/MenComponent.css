@@ -11,7 +11,7 @@
 }
 
 .mansearchinput {
-  width: 100%;
+  width: 9.5rem;
   height: 2rem;
   font-size: 1rem;
   border-color: transparent;
@@ -81,8 +81,11 @@
 }
 .manfiltermaincontainer {
   border: 1px solid #e6e6e6;
-  width: 100%;
-  height: 100%;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .manfiltermaincontainer p {
   margin: 0.2rem;
@@ -116,7 +119,7 @@
   font-size: 1.2rem;
   height: auto;
   width: 100%;
-  padding: 8px 12px;
+  padding: 1px 3px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -125,4 +128,395 @@
 }
 .mansortingcontainer select option:hover {
   border-color: orangered;
+}
+
+@media (max-width: 400px) and (min-width: 240px) {
+  .manand-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .mentshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .mencompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .mentshirt1 {
+    width: 30%;
+  }
+  .menproductthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .mentshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mentshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    align-items: center;
+  }
+  .mansortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .mansortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .mansearchinput {
+    width: 10rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .mansearchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .manfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .mansortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 569px) and (min-width: 320px) {
+  .manand-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .mansortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .mentshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .mencompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .mentshirt1 {
+    width: 30%;
+  }
+  .menproductthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .mentshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mentshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .mansortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .mansearchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .mansearchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .manfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .mansearchbarandinput {
+    display: flex;
+    justify-content: center;
+  }
+  .mansortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 570px) {
+  .manand-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .mentshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .mencompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .mentshirt1 {
+    width: 23%;
+  }
+  .menproductthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .mentshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mentshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .mansortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .mansearchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .mansearchbarandinput {
+    display: flex;
+    justify-content: center;
+  }
+  .mansortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .mansearchbarinputandfilter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .manfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .mansortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 769px) {
+  .manand-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .mentshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .mencompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .mentshirt1 {
+    width: 18%;
+  }
+  .menproductthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .mentshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mentshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .mansortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .mansearchbarandinput {
+    display: flex;
+    justify-content: center;
+  }
+  .mansortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .mansearchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .mansearchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .mansortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .manfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1148px) and (min-width: 1001px) {
+  .manand-filtercontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .mentshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .mencompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .mentshirt1 {
+    width: 15%;
+  }
+  .menproductthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .mentshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mentshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .mansearchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .mansortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .mansearchinput {
+    width: 100%;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .mansearchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .mansortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .manfiltercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
 }

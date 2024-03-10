@@ -99,7 +99,7 @@ const WomanComponent = () => {
                 <input
                   type="text"
                   placeholder="Ara"
-                  className="mansearchinput"
+                  className="womansearchinput"
                   onChange={(e) => setQuery(e.target.value)}
                 />
               </div>

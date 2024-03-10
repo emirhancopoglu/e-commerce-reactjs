@@ -8,7 +8,7 @@
 }
 
 .searchinput {
-  width: 100%;
+  width: 9.5rem;
   height: 2rem;
   font-size: 1rem;
   border-color: transparent;
@@ -74,8 +74,11 @@
 }
 .filtermaincontainer {
   border: 1px solid #e6e6e6;
-  width: 100%;
-  height: 100%;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .filtermaincontainer p {
   margin: 0.3rem;
@@ -112,7 +115,7 @@
   font-size: 1.2rem;
   height: auto;
   width: 100%;
-  padding: 8px 12px;
+  padding: 1px 3px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -121,4 +124,395 @@
 }
 .kidsortingcontainer select option:hover {
   border-color: orangered;
+}
+
+@media (max-width: 400px) and (min-width: 240px) {
+  .kid-and-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .kidtshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .kidcompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .kidtshirt1 {
+    width: 30%;
+  }
+  .productthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .kidtshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .kidtshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .searchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    align-items: center;
+  }
+  .kidsortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .kidsortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .searchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .searchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .filtercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .kidsortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 569px) and (min-width: 320px) {
+  .kid-and-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .kidsortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .kidtshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .kidcompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .kidtshirt1 {
+    width: 30%;
+  }
+  .productthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .kidtshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .kidtshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .searchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .kidsortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .searchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .searchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .filtercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .searchbarandinput {
+    display: flex;
+    justify-content: center;
+  }
+  .kidsortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 570px) {
+  .kid-and-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .kidtshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .kidcompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .kidtshirt1 {
+    width: 23%;
+  }
+  .productthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .kidtshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .kidtshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .searchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .kidsortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .searchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .searchbarandinput {
+    display: flex;
+    justify-content: center;
+  }
+  .kidsortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .searchbarinputandfilter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .filtercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .kidsortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 769px) {
+  .kid-and-filtercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .kidtshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .kidcompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .kidtshirt1 {
+    width: 18%;
+  }
+  .productthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .kidtshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .kidtshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .searchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .kidsortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .searchbarandinput {
+    display: flex;
+    justify-content: center;
+  }
+  .kidsortingcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .searchinput {
+    width: 9.8rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .searchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .kidsortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .filtercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1148px) and (min-width: 1001px) {
+  .kid-and-filtercontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .kidtshirtcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .kidcompcontainer {
+    height: auto;
+    width: 100%;
+  }
+  .kidtshirt1 {
+    width: 15%;
+  }
+  .productthumbnailimg {
+    width: 100%;
+    height: 10rem;
+  }
+  .kidtshirt1title p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .kidtshirt-pricediscount {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .searchbarcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  .kidsortingcontainer select {
+    border-color: gray;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: auto;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .searchinput {
+    width: 100%;
+    height: 2rem;
+    font-size: 0.7rem;
+    border-color: transparent;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #4d4a58;
+  }
+  .searchbarinputandfilter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .kidsortingmaincontainer {
+    margin-bottom: 0rem;
+  }
+  .filtercardcontainer {
+    display: flex;
+    justify-content: center;
+  }
 }

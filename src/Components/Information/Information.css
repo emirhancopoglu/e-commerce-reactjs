@@ -43,3 +43,23 @@
     font-size: 1.3rem;
   }
 }
+@media (max-width: 768px) and (min-width: 320px) {
+  .informationcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .informationcontainer img {
+    width: 5rem;
+    height: 100%;
+  }
+  .informationcompany {
+    display: flex;
+    align-items: center;
+  }
+  .company-text {
+    font-size: 1.3rem;
+  }
+}

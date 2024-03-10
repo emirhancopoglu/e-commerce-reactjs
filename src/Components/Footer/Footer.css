@@ -118,3 +118,41 @@ a {
     flex-direction: column;
   }
 }
+@media (max-width: 768px) and (min-width: 320px) {
+  .footerdetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .sendmailbutton {
+    background-color: #ff4d30;
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 20rem;
+  }
+}
+@media (max-width: 1000px) and (min-width: 769px) {
+  .footerdetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .sendmailbutton {
+    background-color: #ff4d30;
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 20rem;
+  }
+}

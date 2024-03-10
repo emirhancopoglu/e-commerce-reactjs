@@ -84,3 +84,8 @@
     display: none;
   }
 }
+@media (max-width: 1000px) and (min-width: 769px) {
+  .headercontainer {
+    width: 100%;
+  }
+}

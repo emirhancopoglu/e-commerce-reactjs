@@ -7,13 +7,28 @@ const SignupComponent = () => {
         <div className="signupcontainer">
           <form className="signupform">
             <div className="usernamecontainer">
-              <input type="text" placeholder="Adınız" required></input>
+              <input
+                className="signupcontainer-input"
+                type="text"
+                placeholder="Adınız"
+                required
+              ></input>
             </div>
             <div className="emailcontainer">
-              <input type="email" placeholder="E-Posta" required></input>
+              <input
+                className="signupcontainer-input"
+                type="email"
+                placeholder="E-Posta"
+                required
+              ></input>
             </div>
             <div className="passwordcontainer">
-              <input type="password" placeholder="Parola" required></input>
+              <input
+                className="signupcontainer-input"
+                type="password"
+                placeholder="Parola"
+                required
+              ></input>
             </div>
             <div className="contractcontainer">
               <input type="checkbox"></input>

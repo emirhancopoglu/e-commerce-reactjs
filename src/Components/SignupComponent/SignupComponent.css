@@ -19,7 +19,7 @@
   flex-direction: column;
   margin: 0.1rem;
 }
-.signupcontainer input {
+.signupcontainer-input {
   background-color: #ececec;
   border-color: transparent;
   border-width: 1px;
@@ -55,4 +55,86 @@
   text-decoration: underline;
   color: gray;
   font-size: 0.8rem;
+}
+
+@media (max-width: 400px) and (min-width: 240px) {
+  .signupcompcontainer {
+    width: 100%;
+  }
+  .signupcompmaincontainer {
+    padding: 1rem;
+  }
+  .contractcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .signupcontainer-input {
+    background-color: #ececec;
+    border-color: transparent;
+    border-width: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    padding: 10px 60px;
+    width: 100%;
+  }
+  .usernamecontainer {
+    display: flex;
+  }
+  .emailcontainer {
+    display: flex;
+  }
+  .passwordcontainer {
+    display: flex;
+  }
+  .signupformbutton {
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .signupcompcontainer {
+    width: 100%;
+  }
+  .signupcompmaincontainer {
+    padding: 1rem;
+  }
+  .contractcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .signupcontainer-input {
+    background-color: #ececec;
+    border-color: transparent;
+    border-width: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    padding: 10px 60px;
+    width: 100%;
+  }
+
+  .usernamecontainer {
+    display: flex;
+    width: 100%;
+  }
+  .emailcontainer {
+    display: flex;
+    width: 100%;
+  }
+  .passwordcontainer {
+    display: flex;
+    width: 100%;
+  }
+  .signupformbutton {
+    border-radius: 1rem;
+  }
+  .signupform {
+    width: 100%;
+  }
+  .signupcontainer {
+    width: 100%;
+  }
 }

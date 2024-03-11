@@ -1,0 +1,93 @@
+.hamburgermenuclass {
+  width: 100%;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 29px;
+  background-color: white;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ff7a4a;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+  z-index: 1000;
+}
+
+.menu.open {
+  transform: translateX(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 3rem;
+  color: white;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  margin-bottom: 20px;
+}
+.mobileheadersepetim {
+  margin: 0;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.menu ul li a:hover {
+  color: #f0f0f0;
+}
+
+.left-content {
+  display: flex;
+  flex: 1 1;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .hamburgermenuclass {
+    display: none;
+  }
+}

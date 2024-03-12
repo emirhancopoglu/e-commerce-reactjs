@@ -10,6 +10,7 @@ const ProductDetail = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [mainImage, setMainImage] = useState("");
+  const [addedToCart, setAddedToCart] = useState(false); // Sepete eklendi durumu
 
   const handleImageClick = (imageUrl) => {
     setMainImage(imageUrl);
@@ -49,6 +50,10 @@ const ProductDetail = () => {
         JSON.stringify([{ ...product, quantity: 1 }])
       );
     }
+    setAddedToCart(true);
+    setTimeout(() => {
+      setAddedToCart(false);
+    }, 2000);
   };
 
   if (!product) {
@@ -102,10 +107,10 @@ const ProductDetail = () => {
           </div>
           <div className="productsalebutton-liked">
             <button
-              className="productsalebutton"
+              className={`productsalebutton ${addedToCart ? "added" : ""}`}
               onClick={() => addToCart(product)}
             >
-              Sepete Ekle
+              {addedToCart ? "Sepete Eklendi!" : "Sepete Ekle"}
             </button>
             <button className="productlikedbutton">♡</button>
           </div>

@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import sepetimlogo from "../../Assets/sepetimlogo.png";
 import "../Header/Header.css";
 import { Link } from "react-router-dom";
 import basket from "../../Assets/basket.png";
 
 const Header = () => {
+  const [cartItemCount, setCartItemCount] = useState(0);
+
+  useEffect(() => {
+    const cartItems = JSON.parse(localStorage.getItem("cart"));
+    const itemCount = cartItems
+      ? cartItems.reduce((acc, item) => acc + item.quantity, 0)
+      : 0;
+    setCartItemCount(itemCount);
+  }, []);
+
   return (
     <div className="header">
       <div className="headercontainer">
@@ -33,7 +43,10 @@ const Header = () => {
           <ul>
             <li>
               <Link to={"/basket"}>
-                <img src={basket} alt="Sepet"></img>{" "}
+                <img src={basket} alt="Sepet"></img>
+                {cartItemCount > 0 && (
+                  <span className="cart-item-count">{cartItemCount}</span>
+                )}
               </Link>
             </li>
             <li>

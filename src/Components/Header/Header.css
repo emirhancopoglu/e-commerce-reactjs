@@ -11,6 +11,10 @@
   justify-content: center;
   align-items: center;
 }
+.cart-item-count {
+  font-size: 14px;
+  color: orangered;
+}
 
 .headerlogo-links img {
   width: 100%;

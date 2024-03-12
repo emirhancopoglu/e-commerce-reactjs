@@ -99,6 +99,10 @@
   cursor: pointer;
   transition: all 0.3s;
 }
+.basketproductdelete:hover {
+  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
+}
 .productbuycontainer {
   display: flex;
   justify-content: center;
@@ -111,9 +115,13 @@
   text-align: center;
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s;
+}
+.productbuybutton:hover {
+  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
 }
 .productsummary-p {
   color: #333;

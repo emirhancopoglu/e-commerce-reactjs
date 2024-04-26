@@ -1,9 +1,9 @@
 import React from "react";
-import iade from "../../Assets/iade.png";
-import kapıda from "../../Assets/kapıda.png";
-import kargo from "../../Assets/kargo.png";
-import sepetim from "../../Assets/sepetim.png";
-import safe from "../../Assets/güvenli.png";
+import iade from "../../Assets/HomeInformation/iade.png";
+import kapıda from "../../Assets/HomeInformation/kapıda.png";
+import kargo from "../../Assets/HomeInformation/kargo.png";
+import sepetim from "../../Assets/HomeInformation/sepetim.png";
+import safe from "../../Assets/HomeInformation/güvenli.png";
 import "./Information.css";
 
 const İnformation = () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import github from "../../Assets/github.png";
-import instagram from "../../Assets/instagram.png";
-import linkedin from "../../Assets/linkedin.png";
+import github from "../../Assets/Footer/github.png";
+import instagram from "../../Assets/Footer/instagram.png";
+import linkedin from "../../Assets/Footer/linkedin.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

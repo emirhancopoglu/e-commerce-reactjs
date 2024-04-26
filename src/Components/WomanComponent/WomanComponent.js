@@ -4,8 +4,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LoadingPage from "../LoadingPage/LoadingPage";
-import star from "../../Assets/star.png";
-import BreadsComp from "../../Components/BreadsCrump/BreadsComp.jsx";
+import star from "../../Assets/ProductDetails/star.png";
 
 const WomanComponent = () => {
   const [loading, setLoading] = useState(true);

@@ -4,7 +4,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LoadingPage from "../../Components/LoadingPage/LoadingPage.js";
-import star from "../../Assets/star.png";
+import star from "../../Assets/ProductDetails/star.png";
 
 const MenComponent = () => {
   const [loading, setLoading] = useState(true);

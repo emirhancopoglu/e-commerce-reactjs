@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import "./ProductDetailComp.css";
-import star from "../../Assets/star.png";
+import star from "../../Assets/ProductDetails/star.png";
 import LoadingPage from "../LoadingPage/LoadingPage";
 import TrendingCarousel from "../TrendingCarousel/TrendingCarousel";
 

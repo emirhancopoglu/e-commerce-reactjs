@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import hero1 from "../../Assets/hero1.png";
-import hero2 from "../../Assets/hero2.png";
-import hero3 from "../../Assets/hero3.png";
+import hero1 from "../../Assets/HomeCarousel/hero1.png";
+import hero2 from "../../Assets/HomeCarousel/hero2.png";
+import hero3 from "../../Assets/HomeCarousel/hero3.png";
 import "../Carousel/Carousel.css";
 
 const Carousel = () => {

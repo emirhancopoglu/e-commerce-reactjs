@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.css";
-import womenshop from "../../Assets/womenshop.jpg";
-import manshop from "../../Assets/manshop.jpg";
-import kidshop from "../../Assets/kidshop.jpg";
+import womenshop from "../../Assets/Hero/womenshop.jpg";
+import manshop from "../../Assets/Hero/manshop.jpg";
+import kidshop from "../../Assets/Hero/kidshop.jpg";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (

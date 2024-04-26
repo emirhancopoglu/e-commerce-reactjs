@@ -1,7 +1,7 @@
 // HamburgerHeaderComponent.js
 import React, { useState } from "react";
 import "./HamburgerHeaderComponent.css";
-import MobileHeader from "../../Assets/mobileheader.png";
+import MobileHeader from "../../Assets/MobileHeader/mobileheader.png";
 import { Link } from "react-router-dom";
 const HamburgerHeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);

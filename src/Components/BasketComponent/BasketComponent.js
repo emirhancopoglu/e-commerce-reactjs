@@ -1,6 +1,6 @@
 import React from "react";
 import "./BasketComponent.css";
-import basket from "../../Assets/basket.png";
+import basket from "../../Assets/Basket/basket.png";
 
 const BasketComponent = ({ cart }) => {
   const handleDelete = (index) => {

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import sepetimlogo from "../../Assets/sepetimlogo.png";
+import sepetimlogo from "../../Assets/HeaderLogo/sepetimlogo.png";
 import "../Header/Header.css";
 import { Link } from "react-router-dom";
-import basket from "../../Assets/basket.png";
+import basket from "../../Assets//Basket/basket.png";
 
 const Header = () => {
   const [cartItemCount, setCartItemCount] = useState(0);

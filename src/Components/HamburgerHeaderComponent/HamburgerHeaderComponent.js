@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./HamburgerHeaderComponent.css";
 import MobileHeader from "../../Assets/mobileheader.png";
-
+import { Link } from "react-router-dom";
 const HamburgerHeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,44 +32,44 @@ const HamburgerHeaderComponent = () => {
           </div>
           <ul>
             <li>
-              <a href="/" onClick={closeMenu}>
+              <Link to={"/"} onClick={closeMenu}>
                 Ana Sayfa
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/basket" onClick={closeMenu}>
+              <Link to={"/basket"} onClick={closeMenu}>
                 Sepet
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/woman" onClick={closeMenu}>
+              <Link to={"/woman"} onClick={closeMenu}>
                 Kadın
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/men" onClick={closeMenu}>
+              <Link to={"/men"} onClick={closeMenu}>
                 Erkek
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/kid" onClick={closeMenu}>
+              <Link to={"/kid"} onClick={closeMenu}>
                 Çocuk
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" onClick={closeMenu}>
-                İletişim
-              </a>
-            </li>
-            <li>
-              <a href="/signup" onClick={closeMenu}>
+              <Link to={"/signup"} onClick={closeMenu}>
                 Kaydol
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/login" onClick={closeMenu}>
+              <Link to={"/login"} onClick={closeMenu}>
                 Giriş
-              </a>
+              </Link>
+            </li>
+            <li>
+              <Link to={"/contact"} onClick={closeMenu}>
+                İletişim
+              </Link>
             </li>
           </ul>
         </nav>

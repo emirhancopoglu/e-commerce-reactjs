@@ -21,6 +21,7 @@
   font-weight: 400;
   outline: none;
   padding: 10px 60px;
+  text-align: center;
 }
 .sendmailbutton {
   background-color: #ff4d30;
@@ -34,6 +35,12 @@
   cursor: pointer;
   width: 100%;
   margin-top: 1rem;
+  transition: all 0.3s;
+}
+.sendmailbutton:hover {
+  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
+  transition: all 0.3s;
 }
 a {
   text-decoration: none;

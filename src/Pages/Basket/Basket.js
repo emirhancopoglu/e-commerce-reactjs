@@ -3,7 +3,7 @@ import Header from "../../Components/Header/Header.js";
 import BasketComponent from "../../Components/BasketComponent/BasketComponent.js";
 import Footer from "../../Components/Footer/Footer.js";
 import HamburgerHeaderComponent from "../../Components/HamburgerHeaderComponent/HamburgerHeaderComponent.js";
-
+import BreadComp from "../../Components/BreadsCrump/BreadsComp.jsx";
 const Basket = () => {
   const [cart, setCart] = useState([]);
 
@@ -18,6 +18,7 @@ const Basket = () => {
     <div>
       <HamburgerHeaderComponent />
       <Header />
+      <BreadComp breadHeader={"Sepet"} text={"/ Sepet"} />
       <BasketComponent cart={cart} />
       <Footer />
     </div>

@@ -22,31 +22,11 @@ const Footer = () => {
             <li className="companyadressli">Sarıyer/İstanbul</li>
             <li>
               <a href="localhost:3000">
-                <p className="companywebsite">www.sepetim.com.tr</p>
+                <p className="companywebsite">www.sepetim.netlify.app</p>
               </a>
             </li>
           </ul>
 
-          <ul className="sepetimul2">
-            <li>
-              <p className="sepetimhelp">Sepetim Destek</p>
-            </li>
-            <a href="/">
-              <li>İletişim Formu</li>
-            </a>
-            <a href="/">
-              <li>444 4 522</li>
-            </a>
-            <a href="/">
-              <li>Whatsapp Destek</li>
-            </a>
-            <a href="/">
-              <li>Görüntülü Destek</li>
-            </a>
-            <a href="/">
-              <li>Sipariş Takip</li>
-            </a>
-          </ul>
           <ul className="sepetimul3">
             <li>
               <p className="sepetimcategory">Kategori</p>
@@ -60,6 +40,26 @@ const Footer = () => {
             <Link to={"/kid"}>
               <li>Çocuk</li>
             </Link>
+          </ul>
+          <ul className="sepetimul2">
+            <li>
+              <p className="sepetimhelp">Sepetim Destek</p>
+            </li>
+            <a href="/contact">
+              <li>İletişim</li>
+            </a>
+            <a href="/">
+              <li>444 4 522</li>
+            </a>
+            <a href="/">
+              <li>Whatsapp Destek</li>
+            </a>
+            <a href="/">
+              <li>Görüntülü Destek</li>
+            </a>
+            <a href="/">
+              <li>Sipariş Takip</li>
+            </a>
           </ul>
           <ul className="sepetimul4">
             <li>

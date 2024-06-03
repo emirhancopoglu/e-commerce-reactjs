@@ -78,6 +78,7 @@ const ProductDetail = () => {
               <img
                 key={index}
                 src={image}
+                className="small-images"
                 alt={`Small${index}`}
                 onClick={() => handleImageClick(image)}
               />

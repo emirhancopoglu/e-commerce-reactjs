@@ -13,11 +13,15 @@
 .productcardthumbnailimg {
   width: 30rem;
   height: 35rem;
+  object-fit: contain;
 }
 .productbrand-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.small-images {
+  object-fit: contain;
 }
 
 .productrate-stock {
@@ -62,9 +66,13 @@
 }
 .productdesctitlep {
   font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 }
 .productdescp {
   font-weight: 300;
+  padding: 1rem;
+  margin: 0;
 }
 .productsalebutton-liked {
   display: flex;

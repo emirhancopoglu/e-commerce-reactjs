@@ -28,13 +28,13 @@
 .productthumbnailimg {
   width: 100%;
   height: 21rem;
+  object-fit: contain;
 }
 .kidtshirtcontainer {
   display: flex;
   gap: 1rem;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .kidtshirt1 {
   display: flex;
@@ -71,6 +71,7 @@
 .kid-and-filtercontainer {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 .filtermaincontainer {
   border: 1px solid #e6e6e6;
@@ -137,6 +138,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .kidcompcontainer {
     height: auto;
@@ -156,6 +159,8 @@
   .kidtshirt-pricediscount {
     margin: 0;
     font-size: 0.8rem;
+    flex-direction: column;
+    gap: 0;
   }
   .searchbarcontainer {
     display: flex;
@@ -217,6 +222,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
+    padding-left: 1rem;
   }
   .kidcompcontainer {
     height: auto;
@@ -231,11 +237,11 @@
   }
   .kidtshirt1title p {
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .kidtshirt-pricediscount {
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .searchbarcontainer {
     display: flex;
@@ -263,6 +269,7 @@
     background-position: right center;
     border: 1px solid #4d4a58;
   }
+
   .searchbarinputandfilter {
     display: flex;
     flex-direction: column;
@@ -294,6 +301,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
+    padding-left: 1rem;
   }
   .kidcompcontainer {
     height: auto;
@@ -375,6 +383,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
+    padding-left: 1rem;
   }
   .kidcompcontainer {
     height: auto;
@@ -450,6 +459,8 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .kidtshirtcontainer {
     display: flex;
